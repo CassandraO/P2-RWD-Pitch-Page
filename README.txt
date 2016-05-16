@@ -1,7 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/CassandraO/pen/WwmgPP.
-
- 
-
-Forked from [P. Colin Manikoth](http://codepen.io/manikoth/)'s Pen [FlexBox: Container](http://codepen.io/manikoth/pen/eZQwQO/).
-
-Forked from [P. Colin Manikoth](http://codepen.io/manikoth/)'s Pen [FlexBox: Container](http://codepen.io/manikoth/pen/eZQwQO/).
+Green Cup pattern used for background texture Made by Atle Mo retrieved from subtlepatterns.com.
+Facebook, twitter, and email icons retrieved from iconmonstr.com.
+Imagery all my own.
