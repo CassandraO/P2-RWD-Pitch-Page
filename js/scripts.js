@@ -17,7 +17,7 @@ $('h1').text( eval('msg' + numRand));
 
 // read more
 $('article').readmore({
-    
+    collapsedHeight: 100,
       speed: 1500,
   moreLink: '<a href="#">Read More</a>',
   lessLink: '<a href="#">Hide</a>'
