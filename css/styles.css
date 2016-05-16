@@ -12,7 +12,7 @@ YOUR STYLES
   box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
    flex-wrap: wrap;
   
-  justify-content: space-around;
+  justify-content: column;
 }
 
  
@@ -90,8 +90,9 @@ h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
 }
 h1 {
-color: #E8F2F3;
+color: #668D4C;
 text-align: center;
+font-size: 3em;
 }
 h2 {
 color: #E8F2F3;
@@ -143,10 +144,11 @@ body {
 
 .item-3  {
   width: 50%;
-
+  
 }
 .item-3 img {
   width: 100%;
+
 }
 
 
@@ -165,8 +167,7 @@ body {
 }
 .item-5 img {
   width: 100%;
-margin-top: 70px;
-margin-bottom: -50px;
+
   
 }
 
@@ -176,6 +177,24 @@ margin-bottom: -50px;
 MEDIA QUERIES
 *******************/
 
+
+
+/* Mobile */
+@media (min-width: 300px) {
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.item {
+	width:100%;
+}
+
+
+.item-5 {
+	width: 5%
+}
+}
 /* Desktop */
 @media (min-width: 1200px) {
 
@@ -183,10 +202,72 @@ MEDIA QUERIES
 
 /* Tablet */
 @media (min-width: 768px) {
-
+ .container {
+  display: flex;
+ 
+ padding: 10px;
+	background: none;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+   flex-wrap: wrap;
+  
+  justify-content: space-between;
+}
+.item {
+	padding: 10px;
+	margin: 5px;
+	
+	background: #668D4C;
+	border-radius: 8px;
 }
 
-/* Mobile */
-@media (min-width: 480px) {
+.item-1 {
+ 
+  width: 100%;
+  background:  url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/537716_577211665629500_1616925227_n.jpg") 32% 32%;
+  background-size: cover;
+}
 
+.item-1 img {
+  
+}
+
+.item-2  {
+
+  width: 37%;
+}
+.item-2 img {
+  width: 100%;
+}
+
+.item-3  {
+  width: 50%;
+  
+}
+.item-3 img {
+  width: 100%;
+  border-radius: 8px;
+  
+}
+
+
+.item-4  {
+  width: 100%;
+  text-align: center;
+ 
+}
+.item-4 img {
+  width: 100%;
+}
+
+.item-5  {
+  width: 4%;
+  
+}
+.item-5 img {
+  width: 100%;
+
+  
+}
 }
