@@ -4,9 +4,15 @@ YOUR STYLES
 
  .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
  
+ padding: 10px;
+	background: none;
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+   flex-wrap: wrap;
+  
+  justify-content: space-around;
 }
 
  
@@ -15,30 +21,7 @@ YOUR STYLES
  text-align: center;
 }
 
-.item-2 item{
-  
-  
-}
 
-.item-3 {
-  
-  
-}
-
-.item-4 {
- 
-  
-}
-
-.item-5 {
-  
-  
-}
-
-.item-6 {
-  
-  
-}
 
 
 
@@ -50,64 +33,17 @@ YOUR STYLES
 body {
 background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/green_cup.png") 25% 25%;
 }
-/* Color Palette */
-.color-1 {
-background: #742464;
-}
-.color-2 {
-background: #18223F;}
-.color-3 {
-background: #E8F2F3;}
-.color-4 {
-background: #57595B;
-}
-.color-5 {
-background: #668D4C;
-}
 
-/* Textures or Patterns*/
 
-/***New Year pattern Made by Mustafa BAL retrieved from subtlepatterns.com ***/
-.pattern-1 {
-background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/new_year_background.png") 25% 25%;
-background-size: cover;}
 
-/***Concrete Seamless pattern Made by Anchour retrieved from subtlepatterns.com ***/
-.pattern-2 {
-background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/concrete_seamless.png") 25% 25%;
-background-size: cover;}
-
-/***Feathered pattern Made by Martuchox retrieved from subtlepatterns.com ***/
-.pattern-3 {
-background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/upfeathers.png") 25% 25%;
-background-size: cover;}
 
 /***Green Cup pattern Made by Atle Mo retrieved from subtlepatterns.com ***/
 .pattern-4 {
 background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/green_cup.png") 25% 25%;
 background-size: cover;}
 
-/***Stardust pattern Made by Atle Mo retrieved from subtlepatterns.com ***/
-.pattern-5 {
-background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/stardust.png") 25% 25%;
-background-size: cover;}
 
-/* Imagery */
-img {
-size: 75%;
-}
 
-/* Icons */
-.icon-1,
-.icon-2,
-.icon-3,
-.icon-4,
-.icon-5
- {
-border: none;
-}
-
-/* Navigation */
 
 a {
 color: #18223F;
@@ -145,19 +81,7 @@ color: #E8F2F3;
 
 }
 
-button {
-    padding: 10px;
-    background: #742464;
-    color: #E8F2F3;
-    border: #18223F solid 4px;
-    border-radius: 30px;
-}
 
-button:hover {
-	background: #18223F;
-    color: #668D4C;
-	 border: #668D4C solid 4px;
-}
 
 /* Typography */
 
@@ -173,10 +97,6 @@ h2 {
 color: #E8F2F3;
 }
 
-
-
-
-
 p {
 font-family: 'Raleway', sans-serif;
 color: #E8F2F3;
@@ -184,20 +104,6 @@ color: #E8F2F3;
   text-indent: 25px;
 }
 
-#version {
-text-align: center;
-}
-
-/* okay to change */
-
-
-
-
-
-
-* {
-	box-sizing: border-box;
-}
 
 body {
 	background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/green_cup.png");
@@ -207,31 +113,28 @@ body {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.container {
-	padding: 10px;
-	background: none;
-  border-radius: 5px;
-	margin: 45px auto;
-  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-  justify-content: center;
-  
-}
+
 .item {
-	color: #fff;
+	padding: 10px;
+	margin: 5px;
 	
 	background: #668D4C;
 	border-radius: 8px;
 }
 
 .item-1 {
-  
-  width: 99%;
+ 
+  width: 100%;
   background:  url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/537716_577211665629500_1616925227_n.jpg") 32% 32%;
   background-size: cover;
 }
 
+.item-1 img {
+  
+}
+
 .item-2  {
- 
+
   width: 37%;
 }
 .item-2 img {
@@ -239,56 +142,33 @@ body {
 }
 
 .item-3  {
-  width: 55%;
-  
- 
-   
+  width: 50%;
+
 }
 .item-3 img {
   width: 100%;
 }
 
-.item-6  {
-  width: 30%;
-}
-.item-6 img {
-  width: 100%;
-}
-
-.item-5  {
-  width: 5%;
-  
-}
-.item-5 img {
-  width: 100%;
-  padding: 2px;
-}
 
 .item-4  {
-  width: 99%;
+  width: 100%;
   text-align: center;
+ 
 }
 .item-4 img {
   width: 100%;
 }
 
-.item-1 img {
+.item-5  {
+  width: 4%;
   
 }
-
-
-
-
-.
-
-.word1 {
-  font-size: 1.5em;
-  color: #18223F;
+.item-5 img {
+  width: 100%;
+margin-top: 70px;
+margin-bottom: -50px;
+  
 }
-
-
-
-
 
 
 
